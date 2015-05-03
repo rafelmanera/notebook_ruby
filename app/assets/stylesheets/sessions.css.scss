@@ -1,0 +1,21 @@
+.register,.login {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 8em;
+
+  h2 {
+    text-align: center;
+    color:$black;
+  }
+
+  span.hint {
+    font-size: 12px;
+  }
+
+  a {
+    color: $black;
+    text-align: center;
+    text-decoration: underline;
+    display: block;
+  }
+}

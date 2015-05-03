@@ -1,0 +1,142 @@
+button {
+  background:$black;
+  border:1px solid $black;
+  color:$white;
+  padding:20px;
+  border-radius:3px;
+  width: 200px;
+  text-transform: uppercase;
+
+  a {
+    color:$white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
+
+#banner {
+  min-height: 478px;
+  .banner_content {
+    width: 100%;
+    text-align: center;
+    img {
+      margin-top: 8em;
+      width: 200px;
+    }
+    .type-wrap {
+      margin-top: 13em;
+      margin-bottom: 30px;
+      color: $black;
+      font-size: 2.5rem;
+      margin-top: 1em;
+      font-family: 'Cutive', serif;
+    }
+
+    .typed-cursor{
+      display: none;
+    }
+    h1 {
+      color: $california;
+      font-size: 3.5rem;
+      margin-top: 4em;
+    }
+    p {
+      font-size: 1.5rem;
+      margin: -32px 0 2.5rem 0;
+      color: $dark_gray;
+      font-weight: 200;
+    }
+  }
+}
+
+header {
+  background: $white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem 0;
+  border-bottom: 1px solid $light_gray;
+  .header_inner {
+    width: 90%;
+    margin: 0 auto;
+    #logo {
+      display: inline-block;
+      width: 6rem;
+      float: left;
+
+      img {
+        width: 100%;
+      }
+    }
+    nav {
+      float: right;
+      a {
+        text-decoration: none;
+        color: $black;
+        font-size: 1.1rem;
+        line-height: 3em;
+        margin-left: 1rem;
+        &:hover {
+          color: $light_gray;
+        }
+      }
+    }
+  }
+}
+
+#testimonial {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #afb0b0;
+  padding: 3.5rem 0;
+  .quote {
+    margin: 0 0 .5rem 0;
+  }
+  .name {
+    color: $dark_gray;
+    margin: 0;
+    font-size: .85rem;
+  }
+}
+
+#callouts {
+  background-image: url(image_path("callout_background.jpg"));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  min-height: 400px;
+  display: table;
+  .callout_inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .callout {
+    text-align: center;
+    width: 33.3333%;
+    padding: 1.5rem 2.5%;
+    float: left;
+    h2 {
+      color: $black;
+      margin-bottom: 0;
+    }
+    p {
+      color: $black;
+    }
+  }
+}
+
+#bottom_cta {
+  text-align: center;
+  padding: 7.5rem 0;
+  h2 {
+    color: $dark_gray;
+    font-size: 3rem;
+    margin: 0;
+  }
+  p {
+      font-size: 1.25rem;
+      margin: 0 0 2.5rem 0;
+      color: #a7a8a8;
+    }
+}
